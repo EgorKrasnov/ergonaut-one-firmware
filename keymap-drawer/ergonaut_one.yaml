@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: Gui}
+  - {t: ']', h: LEFT CONTROL}
   - Q
   - W
   - E
@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - '['
-  - {t: '`', h: Ctrl}
+  - {t: '[', h: RIGHT CONTROL}
+  - {t: '`', h: LEFT GUI}
   - A
   - S
   - D
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: Ctrl}
+  - {t: '''', h: RIGHT GUI}
   - {t: '-', h: Alt}
   - Z
   - X
@@ -39,11 +39,11 @@ layers:
   - {t: ↹, h: raise}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: lower}
-  - {t: Esc, h: lower}
-  - {t: ⌫, h: Shift}
-  - {t: ⌦, h: raise}
+  - {t: BACKSPACE, h: lower}
+  - {t: ␣, h: Shift}
+  - {t: ESCAPE, h: raise}
   lower:
-  - {t: F1, h: Gui}
+  - {t: F1, h: LEFT CONTROL}
   - F2
   - F3
   - F4
@@ -54,8 +54,8 @@ layers:
   - F9
   - F10
   - F11
-  - F12
-  - {t: +, h: Ctrl}
+  - {t: F12, h: RIGHT CONTROL}
+  - {t: +, h: LEFT GUI}
   - '!'
   - '@'
   - '#'
@@ -66,7 +66,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '-', h: Ctrl}
+  - {t: '-', h: RIGHT GUI}
   - {t: '=', h: Alt}
   - '1'
   - '2'
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: KP NUM, h: Gui}
+  - {t: KP NUM, h: LEFT CONTROL}
   - KP SLASH
   - KP 7
   - KP 8
@@ -97,8 +97,8 @@ layers:
   - Print Scrn
   - Page Up
   - SLCK
-  - CLCK
-  - {t: '=', h: Ctrl}
+  - {t: CLCK, h: RIGHT CONTROL}
+  - {t: '=', h: LEFT GUI}
   - KP MULTIPLY
   - KP 4
   - KP 5
@@ -109,7 +109,7 @@ layers:
   - ↑
   - →
   - Insert
-  - {t: APP, h: Ctrl}
+  - {t: APP, h: RIGHT GUI}
   - Alt
   - KP 0
   - KP 1
