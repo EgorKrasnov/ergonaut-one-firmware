@@ -96,7 +96,7 @@ layers:
   - Home
   - PRINTSCREEN
   - Page Up
-  - SLCK
+  - RIGHT SHIFT
   - ''
   - LEFT SHIFT
   - Sft+Gui+ A
@@ -109,7 +109,7 @@ layers:
   - ↑
   - →
   - AGr+ RIGHT SHIFT
-  - RIGHT SHIFT
+  - ''
   - LEFT ALT
   - Gui+ Z
   - Gui+ X
@@ -120,8 +120,8 @@ layers:
   - End
   - ↓
   - Page Down
-  - Pause Break
   - RIGHT ALT
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
