@@ -55,7 +55,7 @@ layers:
   - F9
   - F10
   - {t: F12, h: RIGHT CONTROL}
-  - {t: '-', h: LEFT GUI}
+  - {t: '-', h: LEFT SHIFT}
   - '1'
   - '2'
   - '3'
@@ -66,7 +66,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '=', h: RIGHT GUI}
+  - {t: '=', h: RIGHT SHIFT}
   - {t: _, h: Alt}
   - '!'
   - '@'
@@ -97,7 +97,7 @@ layers:
   - PRINTSCREEN
   - Page Up
   - SLCK
-  - {t: CLCK, h: RIGHT CONTROL}
+  - ''
   - ''
   - Sft+Gui+ A
   - ''
@@ -109,7 +109,7 @@ layers:
   - ↑
   - →
   - Insert
-  - {t: APP, h: RIGHT GUI}
+  - ''
   - ''
   - ''
   - ''
@@ -121,7 +121,7 @@ layers:
   - ↓
   - Page Down
   - Pause Break
-  - Alt
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
