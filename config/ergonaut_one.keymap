@@ -46,7 +46,7 @@
             bindings = <
 &none           &none          &none      &none                 &none                 &none           &kp C_VOL_UP  &kp HOME  &kp PRINTSCREEN  &kp PG_UP  &kp SLCK         &none
 &kp LEFT_SHIFT  &kp LS(LG(A))  &none      &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp C_MUTE    &kp LEFT  &kp UP           &kp RIGHT  &kp INS          &none
-&kp LEFT_ALT    &none          &kp LG(X)  &kp LG(C)             &kp LG(V)             &none           &kp C_VOL_DN  &kp END   &kp DOWN         &kp PG_DN  &kp PAUSE_BREAK  &kp RIGHT_ALT
+&kp LEFT_ALT    &none          &kp LG(X)  &kp LG(C)             &kp LG(V)             &kp LEFT_ALT    &kp C_VOL_DN  &kp END   &kp DOWN         &kp PG_DN  &kp PAUSE_BREAK  &kp RIGHT_ALT
                                           &trans                &trans                &trans          &trans        &trans    &trans
             >;
         };
