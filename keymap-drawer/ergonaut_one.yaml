@@ -19,9 +19,9 @@ layers:
   - F
   - G
   - H
-  - J
-  - K
-  - L
+  - {t: J, h: ←}
+  - {t: K, h: ↑}
+  - {t: L, h: →}
   - ;
   - {t: '''', h: RIGHT SHIFT}
   - {t: '`', h: Alt}
@@ -32,16 +32,16 @@ layers:
   - B
   - N
   - M
-  - ','
+  - {t: ',', h: ↓}
   - .
   - /
   - {t: \, h: Alt}
   - {t: ↹, h: lower}
   - {t: ␣, h: LEFT GUI}
   - {t: Ctl+ ␣, h: raise}
-  - {t: BACKSPACE, h: raise}
+  - {t: BACKSPACE, h: lower}
   - {t: ␣, h: RIGHT GUI}
-  - {t: ⏎, h: lower}
+  - {t: ⏎, h: raise}
   lower:
   - {t: F11, h: LEFT CONTROL}
   - F1
@@ -108,10 +108,10 @@ layers:
   - ←
   - ↑
   - →
-  - Insert
-  - ''
+  - AGr+ RIGHT SHIFT
+  - RIGHT SHIFT
   - LEFT ALT
-  - ''
+  - Gui+ Z
   - Gui+ X
   - Gui+ C
   - Gui+ V
