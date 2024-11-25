@@ -98,7 +98,7 @@ layers:
   - Page Up
   - SLCK
   - ''
-  - ''
+  - LEFT SHIFT
   - Sft+Gui+ A
   - ''
   - Sft+Gui+ 3
@@ -112,9 +112,9 @@ layers:
   - ''
   - LEFT ALT
   - ''
-  - ''
-  - ''
-  - ''
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
   - ''
   - Vol Down
   - End
