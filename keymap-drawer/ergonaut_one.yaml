@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: '[', h: LEFT CONTROL}
+  - {t: ESCAPE, h: LEFT CONTROL}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: ']', h: RIGHT CONTROL}
-  - {t: ↹, h: LEFT SHIFT}
+  - {t: '[', h: LEFT SHIFT}
   - A
   - S
   - D
@@ -24,7 +24,7 @@ layers:
   - L
   - ;
   - {t: '''', h: RIGHT SHIFT}
-  - {t: '-', h: Alt}
+  - {t: '`', h: Alt}
   - Z
   - X
   - C
@@ -38,10 +38,10 @@ layers:
   - {t: \, h: Alt}
   - {t: ↹, h: lower}
   - {t: ␣, h: LEFT GUI}
-  - {t: ⏎, h: raise}
-  - {t: BACKSPACE, h: raise}
-  - {t: ␣, h: AGr+ BACKSPACE}
-  - {t: ESCAPE, h: lower}
+  - {t: GLOBE, h: raise}
+  - {t: BACKSPACE, h: Alt+ BACKSPACE}
+  - {t: ␣, h: RIGHT GUI}
+  - {t: ⏎, h: lower}
   lower:
   - {t: F11, h: LEFT CONTROL}
   - F1
