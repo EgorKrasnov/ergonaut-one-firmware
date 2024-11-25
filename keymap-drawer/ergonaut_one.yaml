@@ -36,12 +36,12 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: Gui+ ↹, h: lower}
+  - {t: ↹, h: lower}
   - {t: ␣, h: LEFT GUI}
   - {t: Ctl+ ␣, h: raise}
-  - {t: ⏎, h: lower}
+  - {t: BACKSPACE, h: lower}
   - {t: ␣, h: RIGHT GUI}
-  - {t: BACKSPACE, h: raise}
+  - {t: ⏎, h: raise}
   lower:
   - {t: F11, h: LEFT CONTROL}
   - F1
