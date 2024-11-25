@@ -39,7 +39,7 @@ layers:
   - {t: ↹, h: lower}
   - {t: ␣, h: LEFT GUI}
   - {t: GLOBE, h: raise}
-  - {t: BACKSPACE, h: Alt+ BACKSPACE}
+  - {t: BACKSPACE, h: raise}
   - {t: ␣, h: RIGHT GUI}
   - {t: ⏎, h: lower}
   lower:
