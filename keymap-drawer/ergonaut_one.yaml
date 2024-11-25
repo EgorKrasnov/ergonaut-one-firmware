@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: ']', h: RIGHT CONTROL}
-  - {t: '`', h: LEFT SHIFT}
+  - {t: ↹, h: LEFT SHIFT}
   - A
   - S
   - D
