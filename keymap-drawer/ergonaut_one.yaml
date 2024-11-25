@@ -99,8 +99,8 @@ layers:
   - RIGHT SHIFT
   - ''
   - LEFT SHIFT
+  - Gui+ A
   - Sft+Gui+ A
-  - ''
   - Sft+Gui+ 3
   - Sft+Gui+ 4
   - Sft+Gui+ 5
@@ -121,7 +121,7 @@ layers:
   - ↓
   - Page Down
   - RIGHT ALT
-  - ''
+  - RIGHT GUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
