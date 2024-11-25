@@ -39,8 +39,8 @@ layers:
   - {t: ↹, h: lower}
   - {t: ␣, h: LEFT GUI}
   - {t: ⏎, h: raise}
-  - {t: AGr+ BACKSPACE, h: raise}
-  - {t: ␣, h: BACKSPACE}
+  - {t: BACKSPACE, h: raise}
+  - {t: ␣, h: AGr+ BACKSPACE}
   - {t: ESCAPE, h: lower}
   lower:
   - {t: F11, h: LEFT CONTROL}
