@@ -1,6 +1,6 @@
 layers:
   default:
-  - {t: ']', h: LEFT CONTROL}
+  - {t: '[', h: LEFT CONTROL}
   - Q
   - W
   - E
@@ -11,7 +11,7 @@ layers:
   - I
   - O
   - P
-  - {t: '[', h: RIGHT CONTROL}
+  - {t: ']', h: RIGHT CONTROL}
   - {t: '`', h: LEFT GUI}
   - A
   - S
@@ -36,14 +36,15 @@ layers:
   - .
   - /
   - {t: \, h: Alt}
-  - {t: ↹, h: raise}
+  - {t: ↹, h: lower}
   - {t: ␣, h: Shift}
-  - {t: ⏎, h: lower}
-  - {t: BACKSPACE, h: lower}
+  - {t: ⏎, h: raise}
+  - {t: BACKSPACE, h: raise}
   - {t: ␣, h: Shift}
-  - {t: ESCAPE, h: raise}
+  - {t: ESCAPE, h: lower}
   lower:
-  - {t: F1, h: LEFT CONTROL}
+  - {t: F11, h: LEFT CONTROL}
+  - F1
   - F2
   - F3
   - F4
@@ -53,21 +54,8 @@ layers:
   - F8
   - F9
   - F10
-  - F11
   - {t: F12, h: RIGHT CONTROL}
-  - {t: +, h: LEFT GUI}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - {t: '-', h: RIGHT GUI}
-  - {t: '=', h: Alt}
+  - {t: '-', h: LEFT GUI}
   - '1'
   - '2'
   - '3'
@@ -78,53 +66,65 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '=', h: RIGHT GUI}
+  - {t: _, h: Alt}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - +
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   raise:
-  - {t: KP NUM, h: LEFT CONTROL}
-  - KP SLASH
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Vol Up
   - Home
-  - Print Scrn
+  - PRINTSCREEN
   - Page Up
   - SLCK
   - {t: CLCK, h: RIGHT CONTROL}
-  - {t: '=', h: LEFT GUI}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
+  - ''
+  - Sft+Gui+ A
+  - ''
+  - Sft+Gui+ 3
+  - Sft+Gui+ 4
+  - Sft+Gui+ 5
   - MUTE
   - ←
   - ↑
   - →
   - Insert
   - {t: APP, h: RIGHT GUI}
-  - Alt
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP DOT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Vol Down
   - End
   - ↓
   - Page Down
   - Pause Break
   - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -26,28 +26,28 @@
 
         default_layer {
             bindings = <
-&mt LEFT_CONTROL RBKT  &kp Q  &kp W  &kp E        &kp R            &kp T        &kp Y              &kp U            &kp I           &kp O    &kp P     &mt RIGHT_CONTROL LEFT_BRACKET
-&mt LEFT_GUI GRAVE     &kp A  &kp S  &kp D        &kp F            &kp G        &kp H              &kp J            &kp K           &kp L    &kp SEMI  &mt RIGHT_GUI SQT
-&mt LALT MINUS         &kp Z  &kp X  &kp C        &kp V            &kp B        &kp N              &kp M            &kp COMMA       &kp DOT  &kp FSLH  &mt RALT BSLH
-                                     &lt RSE TAB  &mt LSHFT SPACE  &lt LWR RET  &lt LWR BACKSPACE  &mt RSHFT SPACE  &lt RSE ESCAPE
+&mt LEFT_CONTROL LEFT_BRACKET  &kp Q  &kp W  &kp E      &kp R            &kp T      &kp Y            &kp U            &kp I         &kp O    &kp P     &mt RIGHT_CONTROL RIGHT_BRACKET
+&mt LEFT_GUI GRAVE             &kp A  &kp S  &kp D      &kp F            &kp G      &kp H            &kp J            &kp K         &kp L    &kp SEMI  &mt RIGHT_GUI SQT
+&mt LALT MINUS                 &kp Z  &kp X  &kp C      &kp V            &kp B      &kp N            &kp M            &kp COMMA     &kp DOT  &kp FSLH  &mt RALT BSLH
+                                             &lt 1 TAB  &mt LSHFT SPACE  &lt 2 RET  &lt 2 BACKSPACE  &mt RSHFT SPACE  &lt 1 ESCAPE
             >;
         };
 
         lower_layer {
             bindings = <
-&mt LEFT_CONTROL F1  &kp F2    &kp F3  &kp F4    &kp F5    &kp F6     &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &mt RIGHT_CONTROL F12
-&mt LEFT_GUI PLUS    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR  &mt RIGHT_GUI MINUS
-&mt LALT EQUAL       &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9    &kp N0    &kp RALT
-                                       &trans    &trans    &trans     &trans     &trans    &trans
+&mt LEFT_CONTROL F11  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5     &kp F6     &kp F7    &kp F8    &kp F9                &kp F10   &mt RIGHT_CONTROL F12
+&mt LEFT_GUI MINUS    &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9                &kp N0    &mt RIGHT_GUI EQUAL
+&mt LALT UNDER        &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RPAR  &kp PLUS
+                                        &trans    &trans    &trans     &trans     &trans    &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&mt LEFT_CONTROL KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP  &kp HOME  &kp PSCRN  &kp PG_UP  &kp SLCK         &mt RIGHT_CONTROL CLCK
-&mt LEFT_GUI EQUAL       &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp C_MUTE    &kp LEFT  &kp UP     &kp RIGHT  &kp INS          &mt RIGHT_GUI K_APP
-&kp LALT                 &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN  &kp END   &kp DOWN   &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
-                                                     &trans     &trans     &trans        &trans        &trans    &trans
+&none  &none          &none  &none                 &none                 &none           &kp C_VOL_UP  &kp HOME  &kp PRINTSCREEN  &kp PG_UP  &kp SLCK         &mt RIGHT_CONTROL CLCK
+&none  &kp LS(LG(A))  &none  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp C_MUTE    &kp LEFT  &kp UP           &kp RIGHT  &kp INS          &mt RIGHT_GUI K_APP
+&none  &none          &none  &none                 &none                 &none           &kp C_VOL_DN  &kp END   &kp DOWN         &kp PG_DN  &kp PAUSE_BREAK  &kp RALT
+                             &trans                &trans                &trans          &trans        &trans    &trans
             >;
         };
 
