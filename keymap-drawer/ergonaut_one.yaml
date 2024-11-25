@@ -110,7 +110,7 @@ layers:
   - →
   - Insert
   - ''
-  - ''
+  - LEFT ALT
   - ''
   - ''
   - ''
@@ -121,7 +121,7 @@ layers:
   - ↓
   - Page Down
   - Pause Break
-  - ''
+  - RIGHT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
