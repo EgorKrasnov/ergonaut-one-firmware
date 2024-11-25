@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: ']', h: RIGHT CONTROL}
-  - {t: '`', h: LEFT GUI}
+  - {t: '`', h: LEFT SHIFT}
   - A
   - S
   - D
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - ;
-  - {t: '''', h: RIGHT GUI}
+  - {t: '''', h: RIGHT SHIFT}
   - {t: '-', h: Alt}
   - Z
   - X
@@ -37,10 +37,10 @@ layers:
   - /
   - {t: \, h: Alt}
   - {t: ↹, h: lower}
-  - {t: ␣, h: Shift}
+  - {t: ␣, h: LEFT GUI}
   - {t: ⏎, h: raise}
-  - {t: BACKSPACE, h: raise}
-  - {t: ␣, h: Shift}
+  - {t: AGr+ BACKSPACE, h: raise}
+  - {t: ␣, h: Gui+ BACKSPACE}
   - {t: ESCAPE, h: lower}
   lower:
   - {t: F11, h: LEFT CONTROL}
