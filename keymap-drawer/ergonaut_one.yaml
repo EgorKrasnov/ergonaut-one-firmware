@@ -12,19 +12,19 @@ layers:
   - O
   - P
   - {t: '[', h: ']'}
-  - {t: ↹, h: LEFT SHIFT}
+  - {t: ↹, h: LEFT ALT}
   - A
   - S
   - D
   - F
   - G
   - H
-  - {t: J, h: ←}
-  - {t: K, h: ↑}
-  - {t: L, h: →}
+  - J
+  - K
+  - L
   - ;
-  - {t: '''', h: RIGHT SHIFT}
-  - {t: '`', h: Alt}
+  - {t: '''', h: RIGHT ALT}
+  - {t: '`', h: LEFT SHIFT}
   - Z
   - X
   - C
@@ -32,13 +32,13 @@ layers:
   - B
   - N
   - M
-  - {t: ',', h: ↓}
+  - ','
   - .
   - /
-  - {t: \, h: Alt}
-  - {t: ↹, h: lower}
+  - {t: \, h: RIGHT SHIFT}
+  - {t: ↹, h: raise}
   - {t: ␣, h: LEFT GUI}
-  - {t: Ctl+ ␣, h: raise}
+  - {t: Ctl+ ␣, h: lower}
   - {t: BACKSPACE, h: lower}
   - {t: ␣, h: RIGHT GUI}
   - {t: ⏎, h: raise}
@@ -55,7 +55,7 @@ layers:
   - F9
   - F10
   - {t: F12, h: RIGHT CONTROL}
-  - {t: '-', h: LEFT SHIFT}
+  - {t: '-', h: LEFT ALT}
   - '1'
   - '2'
   - '3'
@@ -66,8 +66,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '=', h: RIGHT SHIFT}
-  - {t: _, h: Alt}
+  - {t: RIGHT ALT, h: '='}
+  - {t: _, h: LEFT SHIFT}
   - '!'
   - '@'
   - '#'
@@ -78,10 +78,10 @@ layers:
   - '*'
   - (
   - )
-  - +
+  - {t: RIGHT SHIFT, h: +}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,9 +96,9 @@ layers:
   - Home
   - PRINTSCREEN
   - Page Up
-  - RIGHT SHIFT
+  - RIGHT GUI
   - ''
-  - LEFT SHIFT
+  - LEFT ALT
   - Gui+ A
   - Sft+Gui+ A
   - Sft+Gui+ 3
@@ -109,8 +109,8 @@ layers:
   - ↑
   - →
   - AGr+ RIGHT SHIFT
-  - ''
-  - LEFT ALT
+  - RIGHT ALT
+  - LEFT SHIFT
   - Gui+ Z
   - Gui+ X
   - Gui+ C
@@ -121,10 +121,10 @@ layers:
   - ↓
   - Page Down
   - RIGHT ALT
-  - RIGHT GUI
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
