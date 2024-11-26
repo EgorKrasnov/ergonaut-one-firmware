@@ -36,9 +36,9 @@ layers:
   - .
   - /
   - {t: \, h: RIGHT SHIFT}
-  - {t: ↹, h: raise}
+  - {t: ↹, h: lower}
   - {t: ␣, h: LEFT GUI}
-  - {t: Ctl+ ␣, h: lower}
+  - {t: Ctl+ ␣, h: raise}
   - {t: BACKSPACE, h: lower}
   - {t: ␣, h: RIGHT GUI}
   - {t: ⏎, h: raise}
@@ -79,9 +79,9 @@ layers:
   - (
   - )
   - {t: RIGHT SHIFT, h: +}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,9 +122,9 @@ layers:
   - Page Down
   - RIGHT ALT
   - RIGHT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
