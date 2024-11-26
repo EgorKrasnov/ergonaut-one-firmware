@@ -36,8 +36,8 @@
         lower_layer {
             bindings = <
 &mt LEFT_CONTROL F11  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5     &kp F6     &kp F7    &kp F8    &kp F9                &kp F10   &mt RIGHT_CONTROL F12
-&mt LEFT_ALT MINUS    &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9                &kp N0    &mt EQUAL RIGHT_ALT
-&mt LEFT_SHIFT UNDER  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RPAR  &mt PLUS RIGHT_SHIFT
+&mt LEFT_ALT MINUS    &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9                &kp N0    &mt RIGHT_ALT EQUAL
+&mt LEFT_SHIFT UNDER  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RPAR  &mt RIGHT_SHIFT PLUS
                                         &trans    &trans    &trans     &trans     &trans    &trans
             >;
         };
