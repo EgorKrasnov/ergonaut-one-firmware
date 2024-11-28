@@ -24,7 +24,7 @@ layers:
   - L
   - ;
   - {t: '''', h: RIGHT ALT}
-  - {t: '`', h: LEFT SHIFT}
+  - {t: '`', h: raise}
   - Z
   - X
   - C
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: RIGHT SHIFT}
+  - {t: \, h: lower}
   - {t: ↹, h: LEFT SHIFT}
   - {t: ␣, h: LEFT GUI}
   - {t: Ctl+ ␣, h: lower}
@@ -78,10 +78,10 @@ layers:
   - '*'
   - (
   - )
-  - {t: +, h: RIGHT SHIFT}
+  - {t: +, h: RIGHT SHIFT, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -110,7 +110,7 @@ layers:
   - →
   - AGr+ RIGHT SHIFT
   - RIGHT ALT
-  - LEFT SHIFT
+  - {t: LEFT SHIFT, type: held}
   - Gui+ Z
   - Gui+ X
   - Gui+ C
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
@@ -153,6 +153,7 @@ layers:
   - BT 2
   - BT 1
   - BT CLR
+  - {type: held}
   - ''
   - ''
   - ''
@@ -163,11 +164,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
