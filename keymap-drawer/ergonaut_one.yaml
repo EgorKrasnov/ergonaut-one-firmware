@@ -36,12 +36,12 @@ layers:
   - .
   - /
   - {t: \, h: RIGHT SHIFT}
-  - {t: ↹, h: lower}
+  - {t: ↹, h: LEFT SHIFT}
   - {t: ␣, h: LEFT GUI}
-  - {t: Ctl+ ␣, h: raise}
-  - {t: BACKSPACE, h: lower}
+  - {t: Ctl+ ␣, h: lower}
+  - {t: BACKSPACE, h: raise}
   - {t: ␣, h: RIGHT GUI}
-  - {t: ⏎, h: raise}
+  - {t: ⏎, h: RIGHT SHIFT}
   lower:
   - {t: F11, h: LEFT CONTROL}
   - F1
@@ -79,9 +79,9 @@ layers:
   - (
   - )
   - {t: +, h: RIGHT SHIFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,8 +124,8 @@ layers:
   - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
@@ -165,9 +165,9 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {type: held}
-  - ''
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
