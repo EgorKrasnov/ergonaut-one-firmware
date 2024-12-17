@@ -38,7 +38,7 @@ layers:
   - {t: \, h: lower}
   - {t: ↹, h: LEFT SHIFT}
   - {t: ␣, h: LEFT GUI}
-  - {t: Ctl+ ␣, h: lower}
+  - {t: Ctl+␣, h: lower}
   - {t: BACKSPACE, h: raise}
   - {t: ␣, h: RIGHT GUI}
   - {t: ⏎, h: RIGHT SHIFT}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - ''
+  - Ctrl
   - ''
   - ''
   - ''
@@ -97,24 +97,24 @@ layers:
   - PRINTSCREEN
   - Page Up
   - RIGHT GUI
-  - ''
+  - Ctrl
   - LEFT ALT
-  - Gui+ A
-  - Sft+Gui+ A
-  - Sft+Gui+ 3
-  - Sft+Gui+ 4
-  - Sft+Gui+ 5
+  - Gui+A
+  - Sft+Gui+A
+  - Sft+Gui+3
+  - Sft+Gui+4
+  - Sft+Gui+5
   - MUTE
   - ←
   - ↑
   - →
-  - AGr+ RIGHT SHIFT
+  - AltGr+RIGHT SHIFT
   - RIGHT ALT
   - {t: LEFT SHIFT, type: held}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
   - LEFT ALT
   - Vol Down
   - End
