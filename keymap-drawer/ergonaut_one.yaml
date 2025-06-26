@@ -1,6 +1,7 @@
+layout: {zmk_keyboard: ergonaut_one}
 layers:
   default:
-  - {t: ESCAPE, h: LEFT CONTROL}
+  - Esc
   - Q
   - W
   - E
@@ -12,19 +13,19 @@ layers:
   - O
   - P
   - {t: '[', h: ']'}
-  - {t: ↹, h: LEFT ALT}
-  - A
-  - S
-  - D
-  - F
+  - '`'
+  - {t: A, h: Ctrl}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LCMD}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: '''', h: RIGHT ALT}
-  - {t: '`', h: raise}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT GUI}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: Ctrl}
+  - ''''
+  - ''
   - Z
   - X
   - C
@@ -35,15 +36,15 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: lower}
-  - {t: ↹, h: LEFT SHIFT}
-  - {t: ␣, h: LEFT GUI}
-  - {t: Ctl+␣, h: lower}
-  - {t: BACKSPACE, h: raise}
-  - {t: ␣, h: RIGHT GUI}
-  - {t: ⏎, h: RIGHT SHIFT}
+  - \
+  - ↹
+  - {t: ␣, h: lower}
+  - {t: Ctl+␣, h: raise}
+  - {t: DELETE, h: raise}
+  - {t: BACKSPACE, h: lower}
+  - ENTER
   lower:
-  - {t: F11, h: LEFT CONTROL}
+  - ''
   - F1
   - F2
   - F3
@@ -54,20 +55,20 @@ layers:
   - F8
   - F9
   - F10
-  - {t: F12, h: RIGHT CONTROL}
-  - {t: '-', h: LEFT ALT}
+  - F11
+  - ''
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
   - '6'
-  - '7'
-  - '8'
+  - {t: '7', h: '-'}
+  - {t: '8', h: '='}
   - '9'
   - '0'
-  - {t: '=', h: RIGHT ALT}
-  - {t: _, h: LEFT SHIFT}
+  - F12
+  - ''
   - '!'
   - '@'
   - '#'
@@ -78,59 +79,59 @@ layers:
   - '*'
   - (
   - )
-  - {t: +, h: RIGHT SHIFT, type: held}
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - Ctrl
   - ''
   - ''
   - ''
+  - Sft+Gui+E
   - ''
   - ''
-  - Vol Up
-  - Home
+  - ''
+  - Gui+Sft+A
   - PRINTSCREEN
-  - Page Up
-  - RIGHT GUI
+  - ''
+  - ''
+  - ''
+  - ''
   - Ctrl
   - LEFT ALT
-  - Gui+A
-  - Sft+Gui+A
-  - Sft+Gui+3
-  - Sft+Gui+4
-  - Sft+Gui+5
-  - MUTE
-  - ←
-  - ↑
-  - →
-  - AltGr+RIGHT SHIFT
-  - RIGHT ALT
-  - {t: LEFT SHIFT, type: held}
-  - Gui+Z
-  - Gui+X
-  - Gui+C
-  - Gui+V
-  - LEFT ALT
-  - Vol Down
-  - End
+  - LEFT GUI
+  - LEFT SHIFT
+  - ''
+  - ''
   - ↓
-  - Page Down
-  - RIGHT ALT
-  - RIGHT SHIFT
+  - ↑
+  - ←
+  - →
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+Gui+C
+  - Sft+Gui+V
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   adjust:
   - Boot
-  - ''
+  - Reset
   - ''
   - ''
   - ''
@@ -153,7 +154,6 @@ layers:
   - BT 2
   - BT 1
   - BT CLR
-  - {type: held}
   - ''
   - ''
   - ''
@@ -164,10 +164,11 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -26,34 +26,34 @@
 
         default_layer {
             bindings = <
-&mt LEFT_CONTROL ESCAPE  &kp Q  &kp W  &kp E               &kp R               &kp T            &kp Y            &kp U                &kp I                &kp O    &kp P     &mt RBKT LBKT
-&mt LEFT_ALT TAB         &kp A  &kp S  &kp D               &kp F               &kp G            &kp H            &kp J                &kp K                &kp L    &kp SEMI  &mt RIGHT_ALT SQT
-&lt 2 GRAVE              &kp Z  &kp X  &kp C               &kp V               &kp B            &kp N            &kp M                &kp COMMA            &kp DOT  &kp FSLH  &lt 1 BSLH
-                                       &mt LEFT_SHIFT TAB  &mt LEFT_GUI SPACE  &lt 1 LC(SPACE)  &lt 2 BACKSPACE  &mt RIGHT_GUI SPACE  &mt RIGHT_SHIFT RET
+&kp ESC    &kp Q        &kp W           &kp E       &kp R             &kp T            &kp Y         &kp U              &kp I            &kp O            &kp P           &mt RBKT LBKT
+&kp GRAVE  &mt LCTRL A  &mt LEFT_ALT S  &mt LCMD D  &mt LEFT_SHIFT F  &kp G            &kp H         &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RIGHT_ALT L  &mt RCTRL SEMI  &kp SQT
+&none      &kp Z        &kp X           &kp C       &kp V             &kp B            &kp N         &kp M              &kp COMMA        &kp DOT          &kp FSLH        &kp NON_US_BACKSLASH
+                                        &kp TAB     &lt 1 SPACE       &lt 2 LC(SPACE)  &lt 2 DELETE  &lt 1 BACKSPACE    &kp ENTER
             >;
         };
 
         lower_layer {
             bindings = <
-&mt LEFT_CONTROL F11  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5     &kp F6     &kp F7    &kp F8    &kp F9                &kp F10   &mt RIGHT_CONTROL F12
-&mt LEFT_ALT MINUS    &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp N6     &kp N7    &kp N8    &kp N9                &kp N0    &mt RIGHT_ALT EQUAL
-&mt LEFT_SHIFT UNDER  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp STAR  &kp LEFT_PARENTHESIS  &kp RPAR  &mt RIGHT_SHIFT PLUS
-                                        &trans    &trans    &trans     &trans     &trans    &trans
+&none  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5     &kp F6        &kp F7        &kp F8        &kp F9                &kp F10   &kp F11
+&none  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp NUMBER_6  &mt MINUS N7  &mt EQUAL N8  &kp N9                &kp N0    &kp F12
+&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET     &kp AMPS      &kp STAR      &kp LEFT_PARENTHESIS  &kp RPAR  &none
+                         &trans    &trans    &trans     &trans        &trans        &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&kp LCTRL       &none      &none          &none                 &none                 &none           &kp C_VOL_UP  &kp HOME  &kp PRINTSCREEN  &kp PG_UP  &kp RIGHT_GUI        &kp RCTRL
-&kp LEFT_ALT    &kp LG(A)  &kp LS(LG(A))  &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp C_MUTE    &kp LEFT  &kp UP           &kp RIGHT  &kp RA(RIGHT_SHIFT)  &kp RIGHT_ALT
-&kp LEFT_SHIFT  &kp LG(Z)  &kp LG(X)      &kp LG(C)             &kp LG(V)             &kp LEFT_ALT    &kp C_VOL_DN  &kp END   &kp DOWN         &kp PG_DN  &kp RIGHT_ALT        &kp RIGHT_SHIFT
-                                          &trans                &trans                &trans          &trans        &trans    &trans
+&none  &none      &none         &kp LS(LG(E))  &none           &none   &none   &kp RG(RS(A))  &kp PRINTSCREEN  &none     &none      &none
+&none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI   &kp LEFT_SHIFT  &none   &none   &kp DOWN       &kp UP           &kp LEFT  &kp RIGHT  &none
+&none  &none      &none         &kp LS(LG(C))  &kp LS(LG(V))   &none   &none   &none          &none            &none     &none      &none
+                                &trans         &trans          &trans  &trans  &trans         &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &bootloader
+&bootloader  &sys_reset    &none         &none         &none         &none         &none         &none         &none         &none         &none         &bootloader
 &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
 &none        &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &none
                                          &trans        &none         &trans        &none         &trans        &trans
