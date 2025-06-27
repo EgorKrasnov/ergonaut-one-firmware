@@ -9,7 +9,10 @@
 
 &lt { quick-tap-ms = <200>; };
 
-&mt { quick-tap-ms = <200>; };
+&mt {
+    quick-tap-ms = <200>;
+    flavor = "tap-preferred";
+};
 
 / {
     conditional_layers {
@@ -35,19 +38,19 @@
 
         lower_layer {
             bindings = <
-&none  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5     &kp F6        &kp F7        &kp F8        &kp F9                &kp F10   &kp F11
-&none  &kp N1    &kp N2  &kp N3    &kp N4    &kp N5     &kp NUMBER_6  &mt MINUS N7  &mt EQUAL N8  &kp N9                &kp N0    &kp F12
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET     &kp AMPS      &kp STAR      &kp LEFT_PARENTHESIS  &kp RPAR  &none
-                         &trans    &trans    &trans     &trans        &trans        &trans
+&none  &kp F1            &kp F2        &kp F3        &kp F4          &kp MINUS  &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp F10  &none
+&none  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &none      &kp N0                 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0   &kp F12
+&none  &none             &none         &none         &none           &kp EQUAL  &kp LEFT_PARENTHESIS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none    &none
+                                       &trans        &trans          &trans     &trans                 &trans        &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&none  &none      &none         &kp LS(LG(E))  &none           &none   &none   &kp RG(RS(A))  &kp PRINTSCREEN  &none     &none      &none
-&none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI   &kp LEFT_SHIFT  &none   &none   &kp DOWN       &kp UP           &kp LEFT  &kp RIGHT  &none
-&none  &none      &none         &kp LS(LG(C))  &kp LS(LG(V))   &none   &none   &none          &none            &none     &none      &none
-                                &trans         &trans          &trans  &trans  &trans         &trans
+&none  &none      &none         &kp LS(LG(E))  &none           &none   &kp PRINTSCREEN  &kp END        &kp HOME   &none     &none      &none
+&none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI   &kp LEFT_SHIFT  &none   &kp RS(RG(A))    &kp DOWN       &kp UP     &kp LEFT  &kp RIGHT  &none
+&none  &none      &none         &kp LS(LG(C))  &kp LS(LG(V))   &none   &none            &kp PAGE_DOWN  &kp PG_UP  &none     &none      &none
+                                &trans         &trans          &trans  &trans           &trans         &trans
             >;
         };
 
