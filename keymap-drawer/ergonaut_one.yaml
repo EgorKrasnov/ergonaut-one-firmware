@@ -45,11 +45,11 @@ layers:
   - ENTER
   lower:
   - ''
-  - F1
-  - F2
-  - F3
-  - F4
+  - ''
+  - ''
   - '-'
+  - '='
+  - F3
   - )
   - '7'
   - '8'
@@ -61,7 +61,7 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - LEFT SHIFT
-  - ''
+  - F2
   - '0'
   - '4'
   - '5'
@@ -71,9 +71,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - '='
+  - Sft+Gui+C
+  - Sft+Gui+V
+  - F1
   - (
   - '1'
   - '2'
