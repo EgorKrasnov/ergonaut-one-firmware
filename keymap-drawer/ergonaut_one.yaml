@@ -92,11 +92,11 @@ layers:
   - ''
   - Sft+Gui+E
   - ''
-  - ''
   - PRINTSCREEN
+  - ''
   - End
   - UP ARROW
-  - ''
+  - Home
   - ''
   - ''
   - ''
@@ -104,8 +104,8 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - LEFT SHIFT
-  - ''
   - Sft+Gui+A
+  - ''
   - LEFT ARROW
   - ↓
   - →

@@ -47,10 +47,10 @@
 
         raise_layer {
             bindings = <
-&none  &none      &none         &kp LS(LG(E))  &none           &none   &kp PRINTSCREEN  &kp END         &kp UP_ARROW  &none      &none  &none
-&none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI   &kp LEFT_SHIFT  &none   &kp RS(RG(A))    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none  &none
-&none  &none      &none         &kp LS(LG(C))  &kp LS(LG(V))   &none   &none            &kp PAGE_DOWN   &kp PG_UP     &none      &none  &none
-                                &trans         &trans          &trans  &trans           &trans          &trans
+&none  &none      &none         &kp LS(LG(E))  &none           &kp PRINTSCREEN  &none   &kp END         &kp UP_ARROW  &kp HOME   &none  &none
+&none  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI   &kp LEFT_SHIFT  &kp LS(LG(A))    &none   &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none  &none
+&none  &none      &none         &kp LS(LG(C))  &kp LS(LG(V))   &none            &none   &kp PAGE_DOWN   &kp PG_UP     &none      &none  &none
+                                &trans         &trans          &trans           &trans  &trans          &trans
             >;
         };
 
