@@ -71,8 +71,8 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+Gui+C
-  - Sft+Gui+V
+  - Gui+C
+  - Gui+V
   - F1
   - (
   - '1'
