@@ -40,7 +40,7 @@ layers:
   - ↹
   - {t: ␣, h: lower}
   - {t: Ctl+␣, h: raise}
-  - {t: DELETE, h: raise}
+  - {t: raise, h: sticky}
   - {t: BACKSPACE, h: lower}
   - ENTER
   lower:
@@ -69,8 +69,8 @@ layers:
   - '-'
   - ''
   - ''
-  - ''
-  - ''
+  - Gui+Z
+  - Sft+X
   - Gui+C
   - Gui+V
   - F1
@@ -93,10 +93,10 @@ layers:
   - Sft+Gui+E
   - ''
   - Sft+Gui+4
-  - ''
-  - End
-  - UP ARROW
+  - Page Up
   - Home
+  - UP ARROW
+  - End
   - ''
   - ''
   - ''
@@ -105,7 +105,7 @@ layers:
   - LEFT GUI
   - LEFT SHIFT
   - Sft+Gui+A
-  - ''
+  - PAGE DOWN
   - LEFT ARROW
   - ↓
   - →
@@ -118,8 +118,8 @@ layers:
   - Sft+Gui+V
   - ''
   - ''
-  - PAGE DOWN
-  - Page Up
+  - ''
+  - ''
   - ''
   - ''
   - ''
