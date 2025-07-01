@@ -45,10 +45,10 @@ layers:
   - ENTER
   lower:
   - ''
-  - ''
-  - ''
-  - '-'
-  - '='
+  - Sft+Gui+1
+  - Sft+Gui+2
+  - Sft+Gui+3
+  - Sft+Gui+4
   - F3
   - )
   - '7'
@@ -70,7 +70,7 @@ layers:
   - ''
   - ''
   - Gui+Z
-  - Sft+X
+  - Gui+X
   - Gui+C
   - Gui+V
   - F1
