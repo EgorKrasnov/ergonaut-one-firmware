@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '[', h: ']'}
-  - '`'
+  - {t: '`', h: CAPSLOCK}
   - {t: A, h: Ctrl}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LCMD}
@@ -28,8 +28,8 @@ layers:
   - ''
   - Z
   - X
-  - C
-  - V
+  - {t: C, h: Gui+C}
+  - {t: V, h: Gui+V}
   - B
   - N
   - M
