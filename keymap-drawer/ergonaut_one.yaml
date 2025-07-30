@@ -40,8 +40,8 @@ layers:
   - ↹
   - {t: ␣, h: lower}
   - {t: Ctl+␣, h: raise}
-  - raise
-  - {t: BACKSPACE, h: lower}
+  - lower
+  - {t: BACKSPACE, h: raise}
   - ENTER
   lower:
   - ''
@@ -59,8 +59,8 @@ layers:
   - ''
   - LEFT CONTROL
   - LEFT ALT
-  - LEFT GUI
-  - LEFT SHIFT
+  - {t: (, h: LEFT GUI}
+  - {t: ), h: LEFT SHIFT}
   - F2
   - '0'
   - '4'
@@ -71,8 +71,8 @@ layers:
   - ''
   - Gui+Z
   - Gui+X
-  - Gui+C
-  - Gui+V
+  - {t: '=', h: Sft+=}
+  - {t: '-', h: Sft+-}
   - F1
   - (
   - '1'
