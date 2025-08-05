@@ -106,9 +106,9 @@ layers:
   - LEFT SHIFT
   - Sft+Gui+A
   - PAGE DOWN
-  - '&tap_dance_left'
+  - {t: ←, h: AltGr+←}
   - ↓
-  - '&tap_dance_right'
+  - {t: →, h: AltGr+→}
   - ''
   - ''
   - ''
