@@ -29,14 +29,18 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_LEFT";
             #binding-cells = <0>;
-            bindings = <&kp LEFT>, <&kp RC(LEFT)>;
+            bindings = <&kp LEFT>, <&kp RA(LEFT)>;
+
+            tapping-term-ms = <100>;
         };
 
         tap_dance_right: tap_dance_right {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_RIGHT";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT>, <&kp RC(RIGHT)>;
+            bindings = <&kp RIGHT>, <&kp RA(RIGHT)>;
+
+            tapping-term-ms = <100>;
         };
     };
 
