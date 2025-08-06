@@ -8,9 +8,9 @@ layers:
   - R
   - T
   - Y
-  - U
-  - I
-  - O
+  - {t: U, h: +}
+  - {t: I, h: '-'}
+  - {t: O, h: '='}
   - P
   - {t: '[', h: ']'}
   - {t: '`', h: CAPSLOCK}
