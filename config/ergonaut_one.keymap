@@ -39,9 +39,9 @@
 
         lower_layer {
             bindings = <
-&none  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))           &kp LS(LG(NUMBER_4))              &kp F3  &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp EQUAL  &none
-&none  &kp LEFT_CONTROL      &kp LEFT_ALT          &mt LEFT_GUI LEFT_PARENTHESIS  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &kp F2  &kp N0                 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &none
-&none  &kp LG(Z)             &kp LG(X)             &mt LS(EQUAL) EQUAL            &mt LS(MINUS) MINUS               &kp F1  &kp LEFT_PARENTHESIS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none      &none
+&none  &kp LS(LG(NUMBER_1))  &kp LS(LG(NUMBER_2))  &kp LS(LG(NUMBER_3))           &kp LS(LG(NUMBER_4))              &kp F3  &kp RIGHT_PARENTHESIS  &kp N7        &kp N8              &kp N9            &kp EQUAL  &none
+&none  &kp LEFT_CONTROL      &kp LEFT_ALT          &mt LEFT_GUI LEFT_PARENTHESIS  &mt LEFT_SHIFT RIGHT_PARENTHESIS  &kp F2  &kp N0                 &kp NUMBER_4  &kp N5              &kp NUMBER_6      &kp MINUS  &none
+&none  &kp LG(Z)             &kp LG(X)             &mt LS(EQUAL) EQUAL            &mt LS(MINUS) MINUS               &kp F1  &kp LEFT_PARENTHESIS   &kp NUMBER_1  &mt COMMA NUMBER_2  &mt DOT NUMBER_3  &none      &none
                                                    &trans                         &trans                            &trans  &trans                 &trans        &trans
             >;
         };
