@@ -7,11 +7,11 @@ layers:
   - E
   - R
   - T
-  - {t: Y, h: ':'}
+  - {t: Y, h: )}
   - {t: U, h: +}
   - {t: I, h: '-'}
   - {t: O, h: '='}
-  - P
+  - {t: P, h: _}
   - {t: '[', h: ']'}
   - {t: '`', h: CAPSLOCK}
   - {t: A, h: Ctrl}
@@ -19,7 +19,7 @@ layers:
   - {t: D, h: LCMD}
   - {t: F, h: LEFT SHIFT}
   - G
-  - H
+  - {t: H, h: ':'}
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: RIGHT ALT}
@@ -31,7 +31,7 @@ layers:
   - {t: C, h: Gui+C}
   - {t: V, h: Gui+V}
   - {t: B, h: Gui+B}
-  - N
+  - {t: N, h: (}
   - M
   - ','
   - .
