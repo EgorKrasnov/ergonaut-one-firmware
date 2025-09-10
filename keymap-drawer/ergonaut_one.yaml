@@ -10,8 +10,8 @@ layers:
   - {t: Y, h: )}
   - {t: U, h: +}
   - {t: I, h: '-'}
-  - {t: O, h: '='}
-  - {t: P, h: _}
+  - O
+  - P
   - {t: '[', h: ']'}
   - {t: '`', h: CAPSLOCK}
   - {t: A, h: Ctrl}
@@ -32,8 +32,8 @@ layers:
   - {t: V, h: Gui+V}
   - {t: B, h: Gui+B}
   - {t: N, h: (}
-  - M
-  - ','
+  - {t: M, h: '='}
+  - {t: ',', h: _}
   - .
   - /
   - \

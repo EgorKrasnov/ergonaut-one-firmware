@@ -30,9 +30,9 @@
 
         default_layer {
             bindings = <
-&kp ESC             &mt LG(Q) Q  &mt LG(W) W     &mt LG(E) E  &mt LG(R) R       &mt LG(T) T      &mt RIGHT_PARENTHESIS Y  &mt PLUS U         &mt MINUS I      &mt EQUAL O      &mt UNDER P     &mt RBKT LBKT
-&mt CAPSLOCK GRAVE  &mt LCTRL A  &mt LEFT_ALT S  &mt LCMD D   &mt LEFT_SHIFT F  &kp G            &mt COLON H              &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RIGHT_ALT L  &mt RCTRL SEMI  &kp SQT
-&none               &mt LG(Z) Z  &mt LG(X) X     &mt LG(C) C  &mt LG(V) V       &mt LG(B) B      &mt LEFT_PARENTHESIS N   &kp M              &kp COMMA        &kp DOT          &kp FSLH        &kp BACKSLASH
+&kp ESC             &mt LG(Q) Q  &mt LG(W) W     &mt LG(E) E  &mt LG(R) R       &mt LG(T) T      &mt RIGHT_PARENTHESIS Y  &mt PLUS U         &mt MINUS I           &kp O            &kp P           &mt RBKT LBKT
+&mt CAPSLOCK GRAVE  &mt LCTRL A  &mt LEFT_ALT S  &mt LCMD D   &mt LEFT_SHIFT F  &kp G            &mt COLON H              &mt RIGHT_SHIFT J  &mt RIGHT_GUI K       &mt RIGHT_ALT L  &mt RCTRL SEMI  &kp SQT
+&none               &mt LG(Z) Z  &mt LG(X) X     &mt LG(C) C  &mt LG(V) V       &mt LG(B) B      &mt LEFT_PARENTHESIS N   &mt EQUAL M        &mt UNDERSCORE COMMA  &kp DOT          &kp FSLH        &kp BACKSLASH
                                                  &kp TAB      &lt 1 SPACE       &lt 2 LC(SPACE)  &mo 1                    &lt 2 BACKSPACE    &kp ENTER
             >;
         };
