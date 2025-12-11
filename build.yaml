@@ -1,7 +1,7 @@
 include:
-  - board: seeeduino_xiao_ble
+  - board: seeeduino_xiao
     shield: ergonaut_one_left
-  - board: seeeduino_xiao_ble
+  - board: seeeduino_xiao
     shield: ergonaut_one_right
-  - board: seeeduino_xiao_ble
+  - board: seeeduino_xiao
     shield: settings_reset
