@@ -39,7 +39,7 @@ layers:
   - \
   - ↹
   - {t: ␣, h: lower}
-  - {t: Ctl+␣, h: raise}
+  - {t: GLOBE, h: raise}
   - lower
   - {t: BACKSPACE, h: raise}
   - ENTER
