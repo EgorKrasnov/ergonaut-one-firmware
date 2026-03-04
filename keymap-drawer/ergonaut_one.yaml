@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: Ctrl}
   - ''''
-  - raise
+  - adjust
   - {t: Z, h: Gui+Z}
   - {t: X, h: Gui+X}
   - {t: C, h: Gui+C}
@@ -39,7 +39,7 @@ layers:
   - \
   - ↹
   - {t: ␣, h: lower}
-  - Caps Lock
+  - {t: Caps Lock, h: raise}
   - lower
   - {t: BACKSPACE, h: raise}
   - ENTER
@@ -111,21 +111,21 @@ layers:
   - {t: →, h: AltGr+→}
   - ''
   - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,7 +167,7 @@ layers:
   - ''
   - BT 4
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
