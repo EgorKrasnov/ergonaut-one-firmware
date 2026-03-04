@@ -132,10 +132,10 @@ layers:
   adjust:
   - Boot
   - Reset
+  - BT CLR ALL
   - ''
   - ''
-  - ''
-  - ''
+  - A
   - ''
   - ''
   - ''
@@ -143,8 +143,8 @@ layers:
   - BT CLR ALL
   - BT CLR
   - BT 1
-  - BT CLR ALL
-  - ''
+  - BT 2
+  - BT CLR
   - ''
   - ''
   - ''
