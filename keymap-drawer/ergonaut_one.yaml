@@ -68,7 +68,7 @@ layers:
   - '6'
   - '-'
   - ''
-  - ''
+  - {t: ▽, type: trans}
   - Gui+Z
   - Gui+X
   - {t: '=', h: Sft+=}
